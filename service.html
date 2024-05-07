@@ -55,14 +55,6 @@
                     <small>necron@gmail.com</small>
                 </div>
             </div>
-            <!-- <div class="col-lg-5 px-5 text-end">
-                <ol class="breadcrumb justify-content-end mb-0">
-                    <li class="breadcrumb-item"><a class="text-white-50 small" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white-50 small" href="#">Booking Process</a></li>
-                    <li class="breadcrumb-item"><a class="text-white-50 small" href="#">Services</a></li>
-                    <li class="breadcrumb-item"><a class="text-white-50 small" href="#">Contact</a></li>
-                </ol>
-            </div> -->
         </div>
     </div>
     <!-- Topbar End -->
@@ -81,16 +73,7 @@
                 <a href="index.html" class="nav-item nav-link">Home</a>
                 <a href="about.html" class="nav-item nav-link">Booking Process</a>
                 <a href="service.html" class="nav-item nav-link active">Our Services</a>
-                <!-- <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu bg-light border-0 m-0">
-                        <a href="feature.html" class="dropdown-item">Features</a>
-                        <a href="quote.html" class="dropdown-item">Free Quote</a>
-                        <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
-                    </div>
-                </div> -->
+                <a href="inspectionservices.html" class="nav-item nav-link">Inspection Services (Special Release)</a>
                 <a href="contact.html" class="nav-item nav-link">Contact Us</a>
             </div>
             <div class="h-100 d-lg-inline-flex align-items-center d-none">
@@ -115,7 +98,7 @@
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item"><a href="index.html">Pages</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Services</li>
                 </ol>
             </nav>
@@ -150,7 +133,7 @@
                             <div class="service-icon flex-shrink-0 bg-primary">
                                 <img class="img-fluid" src="img/icon/icon-02-light.png" alt="">
                             </div>
-                            <a class="h4 mx-4 mb-0" href="microwaverepairbooking.html">Microwave Services</a>
+                            <a class="h4 mx-4 mb-0" href="microwaverepairbooking.html">Kitchen Appliance Repairs</a>
                         </div>
                     </div>
                 </div>
@@ -178,12 +161,23 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item">
-                        <img class="img-fluid" src="img/PC.jpg" alt="">
+                        <img class="img-fluid" src="img/PC.jpg" alt="" style="width: 100vw;">
                         <div class="d-flex align-items-center bg-light">
                             <div class="service-icon flex-shrink-0 bg-primary">
                                 <img class="img-fluid" src="img/icon/icon-05-light.png" alt="">
                             </div>
-                            <a class="h4 mx-4 mb-0" href="pcrepairservice.html">PC all hardware components repair</a>
+                            <a class="h4 mx-4 mb-0" href="pcrepairservice.html">PC Harware/Software Repair Services</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="img/inspectionservice.png" alt="">
+                        <div class="d-flex align-items-center bg-light">
+                            <div class="service-icon flex-shrink-0 bg-primary">
+                                <img class="img-fluid" src="img/icon/icon-05-light.png" alt="">
+                            </div>
+                            <a class="h4 mx-4 mb-0" href="inspectionservices.html">Inspection Services (Special Release)</a>
                         </div>
                     </div>
                 </div>
@@ -207,10 +201,13 @@
                     <h5 class="text-light mb-4">Newsletter</h5>
                     <p>Be the first one to get all updates about Necron.</p>
                     <div class="position-relative">
-                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="2af8c2c5-2190-4ca6-a5b7-5b6eb3fd72b2">
+                            <input name="first_name" class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
                             placeholder="Your email">
-                        <button type="button"
+                        <button type="submit"
                             class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </form>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -222,17 +219,17 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Our Services</h5>
-                    <a class="btn btn-link" href="">AC Repair Services</a>
-                    <a class="btn btn-link" href="">Microwave Services</a>
-                    <a class="btn btn-link" href="">T.V Repair Services</a>
-                    <a class="btn btn-link" href="">Refrigerator Services</a>
-                    <a class="btn btn-link" href="">PC All hardware components repair</a>
+                    <a class="btn btn-link" href="acrepairbooking.html">AC Repairs & Maintenance</a>
+                    <a class="btn btn-link" href="microwaverepairbooking.html">Kitchen Appliance Repairs</a>
+                    <a class="btn btn-link" href="tvrepairservice.html">T.V Repair Services</a>
+                    <a class="btn btn-link" href="refrigeratorservices.html">Refrigerator Services</a>
+                    <a class="btn btn-link" href="pcrepairservice.html">PC components repair</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">Booking Process</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="about.html">Booking Process</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="service.html">Our Services</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Follow Us</h5>
